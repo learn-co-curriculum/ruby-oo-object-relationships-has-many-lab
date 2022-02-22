@@ -23,6 +23,7 @@ class Artist
     end
 
 
+
     def songs
         # binding.pry
         songs = Song.all.select { |song|
